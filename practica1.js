@@ -8,7 +8,7 @@ if (dato1 == dato2 && dato2 == dato3)
 alert("los numeros son iguales")
 
 
-numeros.sort(); 
+numeros.sort((a,b) => (a-b)); 
     console.log(numeros);
 
 
